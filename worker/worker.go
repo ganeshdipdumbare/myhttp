@@ -39,6 +39,8 @@ func makeHttpRequest(url string) ([]byte, error) {
 		log.Println(err)
 		return nil, err
 	}
+	defer resp.Body.Close()
+
 	var bodyBytes []byte
 	if resp.StatusCode == http.StatusOK {
 		bodyBytes, err = ioutil.ReadAll(resp.Body)
