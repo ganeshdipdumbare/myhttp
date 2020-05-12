@@ -1,4 +1,4 @@
-![Test](https://github.com/ganeshdipdumbare/myhttp/workflows/Test/badge.svg) ![Coverage](https://github.com/ganeshdipdumbare/myhttp/workflows/Coverage/badge.svg)
+![Test](https://github.com/ganeshdipdumbare/myhttp/workflows/Test/badge.svg) [![codecov](https://codecov.io/gh/ganeshdipdumbare/myhttp/branch/master/graph/badge.svg)](https://codecov.io/gh/ganeshdipdumbare/myhttp)
 
 # myhttp
 
