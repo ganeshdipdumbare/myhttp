@@ -1,3 +1,5 @@
+![Test](https://github.com/ganeshdipdumbare/myhttp/workflows/Test/badge.svg)
+
 # myhttp
 
 Simple tool to make http requests in parallel and print MD5 hash of the response body
