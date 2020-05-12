@@ -16,12 +16,23 @@ Simple tool to make http requests in parallel and print MD5 hash of the response
 - Clone the repository using git clone.
 - Build the project using command 
 
-   ```go build```  
+      go build
 
-- Run the program using command ```./myhttp -parallel <no of parallel sites to be processed> <list of sites separated by space>```
-- To run, this alternate command also can be used- ```./myhttp -parallel=<no of parallel sites to be processed> <list of sites separated```
-- e.g. ```./myhttp -parallel 3 google.com www.fb.com http://yahoo.com```
-- To run the test cases, run command- ```go test ./...```
+- Run the program using command
+
+      ./myhttp -parallel <no of parallel sites to be processed> <list of sites separated by space>
+
+- To run, this alternate command also can be used
+
+      ./myhttp -parallel=<no of parallel sites to be processed> <list of sites separated
+
+- e.g.
+   
+      ./myhttp -parallel 3 google.com www.fb.com http://yahoo.com
+
+- To run the test cases, run command- 
+   
+      go test ./...
 
 ## Assumptions
 
