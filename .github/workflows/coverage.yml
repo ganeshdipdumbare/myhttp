@@ -11,7 +11,7 @@ on:
     branches: [ master ]
 
 jobs:
-  run:
+  coverage:
     runs-on: ubuntu-latest
     steps:
     - name: Set up Go 1.x
@@ -27,7 +27,7 @@ jobs:
       run: go build -v .
 
     - name: Test
-      run: go test -race -coverprofile=coverage.txt -covermode=atomic
+      run: go test ./... -race -coverprofile=coverage.txt -covermode=atomic
         
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v1
